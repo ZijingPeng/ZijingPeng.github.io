@@ -1,0 +1,116 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+.clearfix {
+  clear: both;
+  *zoom: 1;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #FFFAFA;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 880px;
+  height: 100%;
+  padding: 20px;
+}
+
+/* header */
+.header .header-logo {
+  float: left;
+  padding-right: 20px;
+}
+
+.header .header-title {
+  font-size: 36px;
+  color: #696969;
+  text-align: center;
+  line-height: 39px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* text */
+.text {
+  font-size: 14px;
+  text-align: center;
+  color: #8B7B8B;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.selfpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 120px;
+  clip-path: circle(50px at center);
+}
+
+.media-icon {
+  padding: 20px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icon img {
+  vertical-align: bottom;
+}
+
+.cutline {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 50px;
+}
+
+.map {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: auto;
+}
+
+.projectlink {
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box {
+  padding:10px;
+  background-color: #FFF0F0;
+  line-height: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  height: 100%;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+}
+
+.bottom {
+  font-size: 10px;
+  background-color: #FFFAFA;
+  font-family: sans-serif;
+  color: #778899;
+  text-align: right;
+}

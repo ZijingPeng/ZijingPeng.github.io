@@ -4,21 +4,58 @@
 <head>
   <meta charset=utf-8>
   <title>Daisy's Homepage</title>
-  <style>
-    body {
-      margin: 0;
-    }
-
-    canvas {
-      width: 100%;
-      height: 100%
-    }
-
-  </style>
+  <link rel="stylesheet" href="assets/style.css" type="text/css">
 </head>
 
-<body style="background-color:pink; margin:0px; overflow:hidden;">
-  <a href="Overlapping-Avoided-Tooltip/">Overlapping-Avoided Tooltip for Leaflet</a>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="header-title">Hi, this is Zijing Peng</h1>
+    </div>
+    <div class="content">
+      <img src="assets/zijing.png" alt="Zijing" class="selfpic">
+      <div class="text">
+        <p>Senior at Beijing Jiaotong University</p>
+        <p>Major in Computer Science</p>
+        <p>Interest in Computer Graphics and Visual Analytics</p>
+      </div>
+
+      <div class="media-icon">
+        <div style="width: 100%; margin: 0 auto;">
+          <a href="https://github.com/ZijingPeng" target="_blank" class="icon">
+            <img src="/assets/GitHub_Logo.png" alt="GitHub" width="20" height="20">
+          </a>
+          <a href="https://www.linkedin.com/in/zijing-peng-70181b155/" target="_blank" class="icon">
+            <img src="/assets/linkedIn.png" alt="LinkedIn" width="20" height="20">
+          </a>
+          <a href="mailto:zjpeng789@outlook.com" target="_blank" class="icon">
+            <img src="/assets/Outlook.png" alt="Outlook" width="20" height="20">
+          </a>
+        </div>
+      </div>
+
+      <img src="assets/flowers.png" alt="cutline" class="cutline">
+      <div class="box">
+        <a href="overlapping-avoided-tooltip/">
+          <img src="assets/map.png" alt="map" class="map">
+        </a>
+        <a href="overlapping-avoided-tooltip/" class="projectlink"><b>Overlapping-Avoided Tooltip for Leaflet</b></a>
+        <p>
+          This plugin is designed to avoid tooltip overlapping and make users find out the relationship between
+          each tooltip and marker easily. It is based on Force-Directed Drawing Algorithms in the chapter 12 of the
+          book Handbook of Graph Drawing and Visualization written by Stephen G. Kobourov.
+        </p>
+
+      </div>
+      <div class="bottom">
+          <p>
+            Last modified: Sep 17, 2018
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <script src="myscript.js"></script>
 </body>
