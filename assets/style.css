@@ -31,7 +31,7 @@ body {
 
 .header .header-title {
   font-size: 36px;
-  color: #696969;
+  color: #363636;
   text-align: center;
   line-height: 39px;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -41,7 +41,7 @@ body {
 .text {
   font-size: 14px;
   text-align: center;
-  color: #8B7B8B;
+  color: #696969;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -91,13 +91,19 @@ body {
 }
 
 .projectlink {
+  font-size: 18px;
   text-decoration: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #36648B;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.projectlink :visited {
+  color: #36648B;
 }
 
 .box {
   padding:10px;
-  background-color: #FFF0F0;
+  background-color: #FFEEEE;
   line-height: 20px;
   margin: 0 auto;
   max-width: 400px;
@@ -105,6 +111,8 @@ body {
   font-size: 14px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align:center;
+  border-radius: 25px;
+  color: #607B8B;
 }
 
 .bottom {
