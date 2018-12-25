@@ -18,7 +18,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 880px;
   height: 100%;
   padding: 20px;
 }
@@ -40,7 +40,7 @@ body {
 
 /* text */
 .text {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   color: #696969;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -94,14 +94,9 @@ body {
 
 .projectlink {
   font-size: 18px;
-  text-decoration: none;
-  color: #4A708B;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.projectlink :visited {
-  color: #36648B;
-}
 
 .box {
   padding:10px;
@@ -116,6 +111,21 @@ body {
   text-align:center;
   border-radius: 15px;
   color: #607B8B;
+}
+
+.box p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.box a{
+  text-decoration: none;
+  color: #4A708B;
+}
+
+.box a :visited {
+  color: #36648B;
+  text-decoration: none;
 }
 
 .bottom {
