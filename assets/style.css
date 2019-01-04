@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color: #F9F9FF;
+  background-color: #f9f9ff;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 0 auto;
@@ -32,7 +32,7 @@ body {
 .header .header-title {
   margin: 50px;
   font-size: 40px;
-  color: #68838B;
+  color: #68838b;
   text-align: center;
   line-height: 39px;
   font-family: daisyfont;
@@ -43,7 +43,7 @@ body {
   font-size: 16px;
   text-align: center;
   color: #696969;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .selfpic {
@@ -93,49 +93,47 @@ body {
 }
 
 .projectlink {
-  font-size: 18px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-
 .box {
-  padding:10px;
-  background-color: #FCFCFF;
-  border: 2px solid #E4F3F3;
+  padding: 10px;
+  background-color: #fcfcff;
+  border: 2px solid #e4f3f3;
   line-height: 20px;
   margin: 0 auto;
   max-width: 400px;
   height: 100%;
   font-size: 14px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align:center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
   border-radius: 15px;
-  color: #607B8B;
+  color: #607b8b;
 }
 
-.box p{
-  padding-left: 15px;
-  padding-right: 15px;
+.box p {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.box a{
+.box a {
   text-decoration: none;
-  color: #4A708B;
+  color: #4a708b;
 }
 
 .box a :visited {
-  color: #36648B;
+  color: #36648b;
   text-decoration: none;
 }
 
 .bottom {
   font-size: 10px;
-  background-color: #F9F9FF;
+  background-color: #f9f9ff;
   font-family: sans-serif;
   color: #778899;
   text-align: right;
 }
-
 
 .media-viewlink {
   padding-left: 20px;
@@ -152,15 +150,15 @@ body {
   margin-bottom: 10px;
   font-size: 20px;
   text-decoration: none;
-  color: #53868B;
+  color: #53868b;
   font-family: daisyfont;
 }
 
-.viewlink:visited{
-  color: #53868B;
+.viewlink:visited {
+  color: #53868b;
 }
 
 @font-face {
   font-family: "daisyfont";
-  src: url("delirium_sample.woff") format('woff');
+  src: url("delirium_sample.woff") format("woff");
 }
