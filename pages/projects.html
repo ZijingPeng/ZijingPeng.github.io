@@ -7,6 +7,14 @@
   <link rel="shortcut icon" href="../assets/favicon.png" type="image/png"/>
   <link rel="stylesheet" href="../assets/style.css" type="text/css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="./../overlapping-avoided-tooltip/leaflet.50cb86aa.css"
+  />
+  <link
+    rel="stylesheet"
+    href="./../overlapping-avoided-tooltip/styles.c862ef1e.css"
+  />
 </head>
 
 <body>
@@ -231,11 +239,7 @@
               </button>
             </ul>
           </div>
-          <a href="https://zijingpeng.github.io/overlapping-avoided-tooltip/"><img
-            src="../assets/map.png"
-            width="640"
-            alt="leaflet-tooltip-layout"
-          /></a>
+          <div id="map-container" style="width:640px;height:480px;margin-left: auto;margin-right: auto;"></div>
         <br></br>
         </div>
 
@@ -263,9 +267,13 @@
     src="https://kit.fontawesome.com/480e8744af.js"
     crossorigin="anonymous"
   ></script>
+  <script
+      type="text/javascript"
+      src="./../overlapping-avoided-tooltip/main.dde575c2.js"
+    ></script>
   <script>
   // Find all YouTube videos
-    var $allVideos = $("img").add($("iframe")),
+    var $allVideos = $("img").add($("iframe")).add($("#map-container"));
 
     // The element that is fluid width
     $fluidEl = $("body");
